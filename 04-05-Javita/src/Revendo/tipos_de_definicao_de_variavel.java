@@ -57,9 +57,33 @@ public class tipos_de_definicao_de_variavel {
         double lsAtt = Double.parseDouble(ls); // string convertido para double
         System.out.println(lsAtt);
 
-        // wrappers
+        // wrappers rimitivos (como int, double, boolean) e os tornam objetos.
+        // Cada tipo primitivo possui uma classe wrapper correspondente,
+        // como Integer para int, Double para double e Boolean para boolean.
+        // Isso permite que os desenvolvedores usem objetos
+        // em vez de primitivos em situações onde objetos são necessários, como em coleções.
         int lsInt = Integer.parseInt(ls);
         System.out.println(ls);
+
+
+        String minhaData = "05052007";
+        System.out.println(minhaData.replace(".","/"));
+
+
+        int minhaDataInt = Integer.parseInt(minhaData);
+        System.out.printf("essa é minha data de nascimento: %d", minhaDataInt);
+
+        double minhaDataDouble = Double.parseDouble(minhaData);
+        System.out.printf("essa é minha data em double kkk %2f", minhaDataDouble);
+
+        System.out.println("\n");
+        final String segundoNumero = "02";
+
+        
+        int testandoL = Integer.parseInt(segundoNumero);
+        System.out.println(testandoL);
+
+
 
 
 
