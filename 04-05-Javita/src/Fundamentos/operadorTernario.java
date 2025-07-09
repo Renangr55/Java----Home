@@ -47,7 +47,7 @@ public class operadorTernario {
 
         // ex4
         System.out.println("Type a the Student grade ");
-        Double studentName = sc.nextDouble();
+        double studentName = sc.nextDouble();
 
         sc.nextLine();
 
