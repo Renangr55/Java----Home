@@ -17,7 +17,7 @@ public class first_challenge {
         System.out.println("Type the your choice [Yes/No]");
         String choice = read.nextLine();
 
-        while (choice == choice.equalsIgnoreCase()){
+        while (choice.equalsIgnoreCase("Yes")){
 
             System.out.println("1 - Create task ");
             System.out.println("2 - remove task");
@@ -57,7 +57,6 @@ public class first_challenge {
                     break;
                 case 4:
                     System.out.println("you leave");
-                    options = false;
                     break;
                 default:
                     System.out.println("Thanks for much");

@@ -36,12 +36,17 @@ public class ex4 {
 
         for (int number: numbers){
             System.out.println("Numbers: " + number);
-        }
+        };
 
         for (int numberCop : numbersCopied){
             System.out.println("Numbers copied: " + numberCop);
-        }
+        };
 
+        String teste = """
+                rergaa
+        """;
+
+        System.out.println(teste);
         read.close();
 
 
